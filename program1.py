@@ -20,7 +20,7 @@ class Solution(object):
                 if bracket_map[char] != top_element:
                     return False
             else:
-                # It's an opening bracket, push it onto the stack
+
                 stack.append(char)
         
         # If the stack is empty, all opening brackets have been matched; otherwise, it's invalid
