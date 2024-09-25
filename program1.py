@@ -5,7 +5,7 @@ class Solution(object):
         :rtype: bool
         """
 
-        # Dictionary to map closing brackets to their corresponding opening brackets
+
         bracket_map = {')': '(', '}': '{', ']': '['}
         # Stack to keep track of the opening brackets
         stack = []
