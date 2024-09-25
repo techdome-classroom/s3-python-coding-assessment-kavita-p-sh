@@ -14,7 +14,7 @@ class Solution(object):
         
 
         for char in reversed(s):
-            # Get the integer value of the current Roman numeral
+
             current_value = roman_map[char]
             
 
