@@ -23,7 +23,7 @@ class Solution(object):
 
                 stack.append(char)
         
-        # If the stack is empty, all opening brackets have been matched; otherwise, it's invalid
+
         return not stack
 
         pass
