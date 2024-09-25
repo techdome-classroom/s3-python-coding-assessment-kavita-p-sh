@@ -5,12 +5,6 @@ class Solution(object):
         :rtype: bool
         """
 
-        class Solution(object):
-    def isValid(self, s):
-        """
-        :type s: str
-        :rtype: bool
-        """
         # Dictionary to map closing brackets to their corresponding opening brackets
         bracket_map = {')': '(', '}': '{', ']': '['}
         # Stack to keep track of the opening brackets
