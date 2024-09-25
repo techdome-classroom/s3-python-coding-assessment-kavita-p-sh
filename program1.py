@@ -7,7 +7,7 @@ class Solution(object):
 
 
         bracket_map = {')': '(', '}': '{', ']': '['}
-       =
+       
         stack = []
 
         # Iterate over each character in the string
