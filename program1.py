@@ -14,7 +14,7 @@ class Solution(object):
         for char in s:
 
             if char in bracket_map:
-                # Pop the top of the stack if it's non-empty, otherwise assign a dummy value
+
                 top_element = stack.pop() if stack else '#'
                 # Check if the top element matches the corresponding opening bracket
                 if bracket_map[char] != top_element:
